@@ -31,9 +31,13 @@
 
 .cols h3{
   color: #fff;
-  font-size: 3vw;
+  font-size: 2.4vw;
   font-weight: 400;
   margin-bottom: 40px;
+}
+
+.form-text {
+  font-size: .7vw;
 }
 
 
@@ -51,14 +55,16 @@
   border: none;
   border-bottom: 2px #707070 solid;
   outline: none;
-  margin-bottom: 40px;
+  margin-bottom: 3vh;
   padding: 5px;
 }
 
 .col-left-contact {
   background-color: #08364bad;
-  height: 700px;
-  max-width: 600px;
+  /* height: 700px; */
+  height: 30vh;
+  /* max-width: 600px; */
+  max-width: 50vh;
   flex-basis: 35%;
   justify-content: center;
   padding: 40px;
@@ -72,9 +78,11 @@
   border-bottom: 1px solid #fff;
   background-color: transparent;
   margin-bottom: 10px;
+  width: 9vw;
+  height: 4vw;
 }
 
-.submit-btn {
+.submit-btn  {
   outline: none;
   border: none;
   appearance: none;
@@ -92,7 +100,7 @@
   height: 60vh;
 }
 .col-right-contact h4 {
-  font-size: 25px;
+  font-size: 0.7vw;
   color: #ddd;
   font-weight: 400;
   margin-bottom: 10px;
@@ -105,4 +113,5 @@
     margin-bottom: 40px;
 
 }
+
 
