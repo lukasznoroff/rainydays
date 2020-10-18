@@ -1,0 +1,68 @@
+/*--- section-hero ---*/
+
+
+
+
+
+.wraper {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+}
+
+.section-header {
+  display: flex;
+  max-width: 80%;
+  margin: auto;
+}
+
+.col-left {
+  display: flex;
+  flex-direction: column;
+  /* height: 80vh; */
+  justify-content: space-between;
+}
+
+.col-left h1 {
+  color: #ddd;
+  font-size: 2.3vw;
+}
+
+.col-left p {
+  color: #ddd;
+  font-weight: 200;
+  line-height: 1.6;
+  font-size: .7vw;
+}
+
+ 
+.image {
+  width: 40vw;
+  height: 100%;
+  object-fit: contain;
+  margin-left: 10%;
+}
+
+
+
+
+.social-media-box {
+  display: flex;
+  justify-content: space-between;
+  max-width: 25%;
+}
+
+.social-media-icon {
+  width: 2.2vw;
+  border-radius: 50%;
+  transition: all .9s ease;
+  padding: 3px;
+  color: rgb(74, 70, 138);
+
+}
+
+.social-media-icon:hover {
+  transform: rotate(360deg);
+}
+
+

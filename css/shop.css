@@ -1,0 +1,119 @@
+/*--- pages-shop ---*/
+
+.shop-wrapper {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.section-women, .section-men {
+  width: 70%;
+   /* width: 47vw; */
+    /* width: auto;  */
+   /* margin: auto;  */
+  display: grid;
+  /* grid-gap: 10rem; */
+
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  grid-template-columns: repeat(3, 12vw);
+
+  /* grid-auto-rows: minmax(150px, 1fr); */
+  grid-auto-flow: row;
+  /* padding: 2rem; */
+  margin-left: auto;
+  justify-content: space-between;
+  grid-row-gap: 9vw;
+}
+
+.card {
+  /* background-color: #65575725; */
+  /* border: 3px solid rgba(184, 168, 168, 0.605); */
+  /* border-radius: 0.66rem; */
+  height: 12vw;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* color: white; */
+  /* width: auto; */
+  transition: all 1s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  box-shadow: 8px 16px 25px 11px rgba(50, 50, 50, 0.75);
+  transition: all 1s;
+}
+
+
+.banner-blue-box {
+  width: 13.5vw;
+  height: 10vw;
+  /* background-color: rgba(41, 45, 90, 0.853); */
+  background-color: #043850;
+
+  /* animation: pulse 2s infinite;
+  filter: drop-shadow(-55px -51px 71px #4c4c8a9a);
+  filter: drop-shadow(-55px -51px 71px #22414f);
+  filter: drop-shadow(-55px -51px 71px #4d4d31f9); */
+}
+
+/* @keyframes pulse {
+  0% {
+    background-color: rgba(41, 45, 90, 0.853);
+  }
+  50% {
+    background-color: #293764;
+  }
+  100% {
+    background-color: rgba(41, 45, 90, 0.853);
+  }
+} */
+
+.blue-box-header {
+  background-color: #043850;
+  padding: 20% 0 15% 4%;
+  color: #e2e3ef;
+  animation: pulse 3s infinite;
+  font-size: clamp(0.9rem, 1.3vw, 3rem);
+}
+
+/* @keyframes pulse {
+  0% {
+    background-color: rgba(41, 45, 90, 0.853);
+  }
+  50% {
+    background-color: #293764;
+  }
+  100% {
+    background-color: rgba(41, 45, 90, 0.853);
+  }
+} */
+
+.blue-box-text {
+  background-color: #043850;
+  padding: 0 4% 25%;
+  color: #b5b6c5;
+  animation: pulse 2s infinite;
+  font-size: clamp(0.5rem, 0.8vw, 3rem);
+}
+/* 
+@keyframes pulse {
+  0% {
+    background-color: rgba(41, 45, 90, 0.853);
+  }
+  50% {
+    background-color: #293764;
+  }
+  100% {
+    background-color: rgba(41, 45, 90, 0.853);
+  }
+} */
+

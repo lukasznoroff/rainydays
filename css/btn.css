@@ -1,0 +1,22 @@
+.btn {
+  display: flex;
+  align-self: flex-end;
+  align-items: stretch;
+  /* padding: 15px 45px; */
+  padding: 1vh 2vw;
+  font-size: .7vw;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: #0D638A;
+  box-shadow: 3px 3px 12px 2px rgba(0, 0, 0, 0.253);
+  color: #ddd;
+  transition: all .4s ease;
+  cursor: pointer;
+  /* margin-bottom: 50px; */
+}
+
+.btn:hover {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.089);
+  background-color: #0a597e;
+  color: #fff;
+}

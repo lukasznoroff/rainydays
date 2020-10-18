@@ -1,0 +1,155 @@
+/* single-product*/
+
+.product-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.product-box-jacket {
+  display: flex;
+  width: 80%;
+  /* height: 600px; */
+  /* max-width: 1200px; */
+  max-width: 60%;
+  height: 100%;
+  background-color: #fff;
+
+}
+
+
+
+.product-col-right, .product-col-left {
+  height: 100%;
+  flex-basis: 50%;
+}
+
+.product-col-left {
+  background-image: url('../images/jacket-w1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  /* background-position: center; */
+  background-color: rgb(168, 100, 100);
+}
+
+.product-col-right {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  color: #83a048;
+}
+
+.product-col-right h5 {
+  /* font-size: 30px; */
+  font-size: 1.2vw;
+  /* margin-bottom: 20px; */
+  margin-bottom: 2vh;
+}
+
+.product-col-right p {
+  /* font-size: 17px; */
+  font-size: 0.8vw;
+  max-width: 600px;
+  /* margin-bottom: 30px; */
+  margin-bottom: 4vh;
+
+}
+
+.product-col-right h6 {
+  /* font-size: 20px; */
+  font-size: 0.8vw;
+  margin-bottom: 20px;
+}
+
+.price-paragraph {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+
+.size-select label {
+  display: inline-block;
+  margin-right: 12px;
+  padding: 3px 5px;
+  border: 1px solid rgb(204, 190, 190);
+  cursor: pointer;
+  width: 35px;
+  text-align: center;
+  transition: all 0.2s;
+  margin-bottom: 40px;
+}
+  
+.size-select input {
+  display: none;
+
+}
+
+/* .size-select label:last-child {
+  margin-right: 0;
+} */
+
+.size-select label:hover {
+  background-color: rgb(218, 204, 204);
+  
+}
+
+.size-select input:checked + label {
+  font-weight: 700;
+  color: #fff;
+  background-color: rgb(158, 149, 149);
+}
+
+
+
+.color-select  label {
+  display: inline-block;
+  margin-right: 12px;
+  /* width: 35px; */
+  /* height: 35px; */
+  width: 2vw;
+  height: 2vw;
+  transition: all 0.2s;
+  margin-bottom: 20px;
+}
+  
+.color-select input {
+  display: none;
+}
+
+.color-select.color {
+  display: block;
+  width: 35px;
+  height: 35px;
+}
+.color-red {
+  background-color: red;
+
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-select label:hover {
+  border: 1px solid #000;
+  cursor: pointer;
+
+}
+
+.color-select input:checked + label {
+  border: 2px solid #000;
+} 
+.add-btn {
+  display: flex;
+  align-self: flex-start;
+  border: none;
+  padding: 1vh 1vw;
+}
+
