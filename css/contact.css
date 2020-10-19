@@ -57,6 +57,8 @@
   outline: none;
   margin-bottom: 3vh;
   padding: 5px;
+  color: #fff;
+
 }
 
 .col-left-contact {
@@ -80,6 +82,8 @@
   margin-bottom: 10px;
   width: 9vw;
   height: 4vw;
+  color: #fff;
+
 }
 
 .submit-btn  {
