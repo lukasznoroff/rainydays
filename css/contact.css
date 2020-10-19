@@ -38,6 +38,7 @@
 
 .form-text {
   font-size: .7vw;
+  max-height: 5%;
 }
 
 
@@ -104,17 +105,18 @@
   height: 60vh;
 }
 .col-right-contact h4 {
-  font-size: 0.7vw;
+  font-size: 1vw;
   color: #ddd;
   font-weight: 400;
   margin-bottom: 10px;
 }
 
 .col-right-contact p {
-    font-size: 16px;
+    font-size: .6vw;
     color: #ddd;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 3vw;
+
 
 }
 
