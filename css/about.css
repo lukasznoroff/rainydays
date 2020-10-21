@@ -16,7 +16,7 @@
 
 .about-col-left {
   display: flex;
-  max-width: 500px;
+  max-width: 30vw;
   /* height: 600px; */
   height: 40vh;
   flex-direction: column;
@@ -34,7 +34,7 @@
 
 .about-col-left p {
   /* font-size: 16px; */
-  font-size: 0.9vw;
+  font-size: 0.7vw;
   color: #ddd;
   font-weight: 200;
   /* margin-bottom: 60px; */
