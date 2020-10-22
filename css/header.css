@@ -1,3 +1,6 @@
+/*--- header ---*/
+
+
 header {
   width: 80vw;
   margin: auto;
@@ -7,17 +10,14 @@ header {
 
 .logo {
   display: flex;
-  justify-content: space-between;
   flex: 1;
 }
 
 .logo img {
-  width: 154px;
+  width: 10vw;
 }
 
 nav {
-  width: 80%;
-  margin: auto;
   min-height: 20vh;
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@ ul {
 
 ul li {
   padding: 30px;
-  font-size: 16px;
+  font-size: 1rem;
   font-size: clamp(0.9rem, 0.8vw, 3rem);
 }
 

@@ -28,13 +28,42 @@
       </div>
     </nav>
   </header>
-  <div class="shop-wrapper">
-    <div class="banner-blue-box">
-      <h2 class="blue-box-header">LOGIN</h2>
-    </div>
-    <div class="section-login">
+  <div class="section-login">
+    <div class="columns">
+      <div class="col-left-login column-log-reg headers">
+        <h3>LOGIN</h3>
+        <div class="input-box">
+          <label class="form-text" for="email">Email</label>
+          <input class="input" type="email" name="email" required>
+          <label class="form-text" for="pass">Password</label>
+          <input class="input" type="password" id="pass" name="password" required>
+          <div class="btn-login">
+            <button class="btn">LOGIN</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-right-register column-log-reg headers">
+        <h3>REGISTER</h3>
+        <div class="input-box ccc">
+          <label class="form-text" for="name">Name</label>
+          <input class="input" type="text" name="name" required>
+          <label class="form-text" for="surname">Surame</label>
+          <input class="input" type="text" name="surname" required>
+          <label class="form-text" for="email">Your Email</label>
+          <input class="input" type="email" name="email" required>
+          <label class="form-text" for="pass">Password</label>
+          <input class="input" type="password" id="pass" name="password" minlength="8" required>
+          <div class="btn-login">
+            <button class="btn">CREATE</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+  </div>
+
+
+
   <footer>
 
   </footer>

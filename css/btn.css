@@ -12,6 +12,8 @@
   color: #ddd;
   transition: all .4s ease;
   cursor: pointer;
+  border: none;
+  outline: none;
   /* margin-bottom: 50px; */
 }
 

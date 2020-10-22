@@ -2,7 +2,7 @@
 
 .product-box {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   height: 60vh;
 }
@@ -10,18 +10,16 @@
 .product-box-jacket {
   display: flex;
   width: 80%;
-  /* height: 600px; */
-  /* max-width: 1200px; */
   max-width: 60%;
+  background-color: #fdfbd4;
+  margin-top: 40px;
   height: 100%;
-  background-color: #fff;
-
 }
 
 
 
 .product-col-right, .product-col-left {
-  height: 100%;
+  /* height: 100%; */
   flex-basis: 50%;
 }
 
@@ -36,29 +34,24 @@
 
 .product-col-right {
   padding: 35px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   color: #83a048;
 }
 
 .product-col-right h5 {
-  /* font-size: 30px; */
   font-size: 1.2vw;
-  /* margin-bottom: 20px; */
   margin-bottom: 2vh;
 }
 
 .product-col-right p {
-  /* font-size: 17px; */
   font-size: 0.8vw;
   max-width: 600px;
-  /* margin-bottom: 30px; */
   margin-bottom: 4vh;
 
 }
 
 .product-col-right h6 {
-  /* font-size: 20px; */
   font-size: 0.8vw;
   margin-bottom: 20px;
 }
@@ -84,7 +77,6 @@
   
 .size-select input {
   display: none;
-
 }
 
 /* .size-select label:last-child {
@@ -93,7 +85,6 @@
 
 .size-select label:hover {
   background-color: rgb(218, 204, 204);
-  
 }
 
 .size-select input:checked + label {
@@ -102,13 +93,9 @@
   background-color: rgb(158, 149, 149);
 }
 
-
-
 .color-select  label {
   display: inline-block;
   margin-right: 12px;
-  /* width: 35px; */
-  /* height: 35px; */
   width: 2vw;
   height: 2vw;
   transition: all 0.2s;
@@ -134,7 +121,7 @@
 }
 
 .color-yellow {
-  background-color: yellow;
+  background-color: rgb(221, 221, 2);
 }
 
 .color-select label:hover {
@@ -152,4 +139,3 @@
   border: none;
   padding: 1vh 1vw;
 }
-
