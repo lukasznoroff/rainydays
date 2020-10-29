@@ -1,0 +1,212 @@
+/* --- shopping cart --- */
+
+.cards-wrapper {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  height: 60vh;
+}
+
+.cards {
+  display: flex;
+  margin: auto;
+  height: 60vh;
+}
+
+.card-col {
+  width: 400px;
+}
+
+.product-card {
+  min-width: 1100px;
+  display: flex;
+  background-color: #cac8a3;
+  background-color: #969471;
+}
+
+/* .product-card-top {
+  display: flex;
+ 
+} */
+
+/* .empty-cart {
+  padding: 22px;
+} */
+
+.product-info {
+  display: inline-block;
+
+  padding: 11px;
+  /* max-height: 180px; 
+  width: 40%;  */
+}
+
+.single-line {
+  padding: 3px;
+  /* max-height: 12px; */
+  /* height: 10px; */
+  /* max-height: .9vw; */
+  /* height: 1vw; */
+}
+
+.product-cart-bottom li:first-child {
+  border-bottom: 1px solid #fff;
+  padding: 0;
+  width: 20vw;
+  margin-bottom: 20px;
+}
+
+.cart-jacket {
+  /* width: 13vw; */
+  width: 50%;
+  /* max-width: 400px; */
+  object-fit: contain;
+}
+
+.price-text {
+  margin-top: 0.8vw;
+}
+
+.credit-card {
+  background-color: #afad89;
+  background: rgb(161, 153, 153);
+}
+
+.credit-cards {
+  width: 13vw;
+
+  /* margin: auto;
+  margin-top: .3vw;
+  margin-bottom: 1.6vw; */
+  height: 10vw;
+  /* width: 220px; */
+  /* max-height: 402px; */
+  margin: auto;
+  margin-top: 5px;
+}
+
+.credit-cards-info {
+  /* height: 6vw; */
+  padding: 0;
+}
+
+.cards-info li:first-child {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  width: 16vw;
+  margin-bottom: 0.5vw;
+  padding: 0;
+}
+
+.credit-card {
+  width: 40%;
+}
+
+.cart-buttons {
+  /* margin-left: auto; */
+  /* width: 200px; */
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* max-height: 250px; */
+}
+/* .cart-buttons2 {
+  margin-left: auto;
+  width: 50%;
+ padding: 0;
+  display: flex;
+  justify-content: space-around;
+
+
+} */
+
+.flat-btn {
+  display: table;
+  /* margin-top: 60px; */
+  /* margin-left: 20px; */
+  /* background-color: transparent; */
+  border: none;
+  outline: none;
+  color: #ddd;
+  font-size: 16px;
+  letter-spacing: 1.4px;
+  margin: 10px 0;
+  text-decoration: none;
+  background-color: rgba(206, 168, 168, 0.295);
+  transition: all 0.4s;
+}
+
+.flat-btn:nth-last-of-type(2) {
+  margin-top: 50px;
+}
+
+.flat-btn:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.button-payment-box {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .cards-wrapper {
+    width: 80%;
+    margin: auto;
+    /* display: flex; */
+    height: 60vh;
+  }
+  .cart-jacket {
+    /* width: 13vw; */
+    width: 15%;
+    /* max-width: 400px; */
+    object-fit: contain;
+    margin: auto;
+  }
+  .product-card {
+    min-width: 300px;
+    margin-top: 40px;
+  }
+  .cart-jacket {
+    /* width: 13vw; */
+    width: 50%;
+
+    /* max-width: 400px; */
+    /* object-fit: contain; */
+  }
+  .cards-headers {
+    font-size: 4vw;
+    padding: 1vw 0;
+  }
+  .cards-text {
+    font-size: 2vw;
+  }
+  .credit-card {
+    width: 100%;
+    margin: auto;
+  }
+  .credit-cards {
+    min-height: 20vh;
+    /* width: 12vw; */
+    display: flex;
+    padding: 2px;
+    justify-content: center;
+    margin: auto;
+  }
+  .single-line .cards-text {
+    display: none;
+  }
+  .credit-cards .credit-card {
+    width: 70px;
+    /* height: 100%; */
+    margin: 0 2px;
+    object-fit: contain;
+    background-size: cover;
+  }
+  .mobile {
+    display: none;
+  }
+  .button-payment-box {
+    height: 10vh;
+    align-self: flex-end;
+  }
+}

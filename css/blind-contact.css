@@ -1,0 +1,37 @@
+
+
+.blind-contact {
+  width: 60vh;
+
+ background-image: url("/images/woman.png");
+ background-repeat: no-repeat;
+ background-size: contain;
+ width: 500px;
+ height: 700px;
+ margin: auto;
+ 
+}
+
+.blind-contact {
+  padding: 20px;
+}
+
+
+
+/* .blind-login-img {
+  height: 100%;
+  width: 100%;
+} */
+
+
+.shop-footer {
+  display: flex;
+  height: 15vh;
+  align-items: flex-end;
+}
+
+
+@media only screen and (max-width: 800px){
+ 
+
+  }

@@ -1,13 +1,11 @@
 /*--- section-hero ---*/
 
 
-
-
-
 .wraper {
   display: flex;
   align-items: center;
-  height: 80vh;
+  /* height: 75vh; */
+  height: 70vh;
 }
 
 .section-header {
@@ -48,8 +46,8 @@
 
 .social-media-box {
   display: flex;
-  justify-content: space-between;
-  max-width: 25%;
+  max-width: 80%;
+  margin: auto;
 }
 
 .social-media-icon {
@@ -58,10 +56,161 @@
   transition: all .9s ease;
   padding: 3px;
   color: rgb(74, 70, 138);
+}
 
+.footer-text {
+  color: #ddd;
+  display: flex;
+  align-self: center;
+  margin-left: auto;
+  font-size: .6vw;
 }
 
 .social-media-icon:hover {
   transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 800px){
+
+#hamburger-menu {
+  display:none;
+}
+
+.hamburger {
+  position: absolute;
+  right: 22px;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+  
+
+}
+}
+
+@media only screen and (min-width: 800px){
+ .hamburger {
+   display: none;
+ }
+ #hamburger-menu {
+   display: none;
+ }
+
+.logo-mobile img {
+  display: none;
+}
+}
+
+
+@media only screen and (max-width: 800px){
+  nav {
+    display: block;
+    display: none;
+    position: absolute;
+    background-color: #333;
+    width: 80%;
+    height: 100vh;
+    text-align: center;
+    padding: 30px;
+    z-index: 1;
+  }
+  .logo-mobile {
+    display: flex;
+    width: 350px;
+    justify-content: flex-start;
+  }
+  .hamburger {
+    margin: 20px 20px;
+  }
+
+
+
+
+  .logo-mobile img {
+        width: 50px;
+       margin-top: 20px;
+  }
+
+
+  ul li {
+    padding: 20px;
+  }
+  .logo  {
+    /* display: none; */
+    display: flex;
+    justify-content: center;
+    height: 225px;
+    padding: 66px;
+   
+  }
+
+
+
+  .logo img {
+    width: 39vw;
+  }
+  .icon img{ 
+    /* display: block; */
+    width: 4vw;
+  }
+  ul {
+    display: block;
+  
+  }
+
+  .wraper {
+    /* display: flex; */
+    /* align-items: center; */
+    height: 90vh;
+  }
+
+  .section-header {
+    /* display: flex; */
+    flex-direction: column-reverse;
+    /* max-width: 80%; */
+    /* margin: auto; */
+  }
+  .image {
+    width: 80vw;
+    margin: auto;
+  }
+  .col-left {
+    /* display: flex; */
+    height: 30vh;
+    margin-top: 40px;
+  }
+  .col-left h1 {
+    font-size: 4.3vw;
+    margin-bottom: 40px;
+  }
+  
+  .col-left p {
+    color: #ddd;
+    font-weight: 200;
+    line-height: 1.6;
+    font-size: 2.3vw;
+    margin-bottom: 40px;
+    text-align: justify;
+  }
+  .btn {
+    padding: 1.4vh 4vw;
+    font-size: 3vw;
+    align-self: flex-start;
+  }
+
+
+  
+  .mobile-index .social-media-icon {
+    display: block;
+    width: 8vw;
+    margin-right: 10px;
+  }
+  
+  .footer-text {
+  display: flex;
+  font-size: 2vw;
+    display: none;
+  }
+  
 }
 

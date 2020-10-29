@@ -7,7 +7,8 @@
   margin-top: 20px;
 }
 
-.section-women, .section-men {
+.section-women,
+.section-men {
   width: 70%;
   display: grid;
   grid-template-columns: repeat(3, 12vw);
@@ -18,23 +19,48 @@
 }
 
 .card {
-  height: 12vw;
+  height: 11vw;
   transition: all 1s;
+  border: 1px solid rgb(43, 39, 39);
+  border: 1px solid rgb(99, 94, 94);
 }
 
 .card:hover {
+  border-left: 1px solid rgb(58, 94, 194);
+  animation: animation-loop 1.5s infinite;
+}
+
+@keyframes animation-loop {
+  0% {
+    border-left: 1px solid rgb(58, 94, 194);
+  }
+  25% {
+    border-top: 1px solid rgb(39, 70, 156);
+  }
+  50% {
+    border-right: 1px solid rgb(58, 94, 194);
+  }
+  100% {
+    border-bottom: 1px solid rgb(34, 60, 131);
+  }
+}
+
+.women-jacket:hover {
   transform: scale(1.1);
+}
+
+.card:hover {
+  /* transform: scale(1.1); */
 }
 
 .card img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  /* object-fit: cover; */
   object-position: center;
-  box-shadow: 8px 16px 25px 11px rgba(50, 50, 50, 0.75);
+  /* box-shadow: 8px 16px 25px 11px rgba(50, 50, 50, 0.75); */
   transition: all 1s;
 }
-
 
 .banner-blue-box {
   width: 13.5vw;
@@ -44,16 +70,74 @@
 }
 
 .blue-box-header {
+  font-weight: 200;
   background-color: #043850;
   padding: 20% 0 15% 4%;
   color: #e2e3ef;
   font-size: clamp(0.9rem, 1.3vw, 3rem);
 }
 
-
 .blue-box-text {
   background-color: #043850;
   padding: 0 4% 25%;
   color: #b5b6c5;
   font-size: clamp(0.5rem, 0.8vw, 3rem);
+}
+
+.shop-footer {
+  display: flex;
+  height: 15vh;
+  align-items: flex-end;
+}
+
+@media only screen and (max-width: 800px) {
+  .section-women,
+  .section-men {
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    grid-row-gap: 28vw;
+    margin: 0;
+    width: 100%;
+  }
+
+  .shop-wrapper {
+    /* width: 13.5vw; */
+    /* height: 10vw; */
+    display: block;
+  }
+  .card {
+    height: 50vw;
+    transition: all 1s;
+    border: 1px solid rgb(43, 39, 39);
+  }
+
+  .banner-blue-box {
+    display: contents;
+  }
+  .blue-box-header {
+    display: block;
+  }
+
+  .blue-box-text {
+    /* display: block; */
+    margin-bottom: 80px;
+  }
+
+  .banner-blue-box {
+    margin: auto;
+    width: 100%;
+  }
+  .btn-jacket {
+    font-size: 2.5vw;
+    display: inline-block;
+    padding: 1vh 2.6vw;
+  }
+  .cards-headers-small {
+    font-size: 3vw;
+    margin-left: 5px;
+  }
+  .social-media-icon {
+    display: none;
+  }
 }

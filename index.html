@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="rainydays is a shop with comfortable, waterproof jackets">
+    <meta name="description" content="rainydays is a shop with comfortable, waterproof jackets for active women and men, 
+    who like to spend time outside">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 
     <title>rainydays</title>
@@ -13,18 +15,26 @@
 
 <body>
     <header>
+       
+        <label class="hamburger" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu">
+         <!-- <div class="hamxxx"><div class="lll"></div></div>
+    <label class="hamburger-close" for="hamburger-menu-close"><i class="fas fa-times"></i></label>
+    <input type="checkbox" id="hamburger-menu-close">  -->
+        <a class="logo-mobile" href="/index.html"><img src="images/logo.png" alt="logo for rainydays website"></a>
+   
         <nav>
             <a class="logo" href="/index.html"><img src="images/logo.png" alt="logo for rainydays website"></a>
+            
 
             <ul>
-                <li><a href="/index.html">Home</a></li>
                 <li><a href="/pages/women.html">Women</a></li>
                 <li><a href="/pages/men.html">Men</a></li>
-                <li><a href="/pages/payment.html">Payment</a></li>
+                <li><a href="/pages/about.html">About</a></li>
                 <li><a href="/pages/contact.html">Contact</a></li>
             </ul>
             <div class="icon">
-                <a href="/pages/shopping-cart.html"><img src="images/basket.svg" alt="shopping cart icon"></a>
+                <a href="/pages/empty-cart.html"><img src="images/basket.svg" alt="shopping cart icon"></a>
                 <a href="/pages/login.html"><img src="images/login.svg" alt="login icon"></a>
             </div>
         </nav>
@@ -44,20 +54,21 @@
                 </p>
 
                 <a class="btn" href="./pages/about.html">DISCOVER</a>
-                <div class="social-media-box">
-                    <a class="social-media-icon" href="https://www.facebook.com" target="_blank"><img
-                            src="/images/facebook.svg" alt="facebook"></a>
-                    <a class="social-media-icon" href="https://www.instagram.com" target="_blank"><img
-                            src="/images/instagram.svg" alt="instagram."></a>
-                    <a class="social-media-icon" href="https://www.twitter.com" target="_blank"><img
-                            src="/images/twitter.svg" alt="twitter"></a>
-                </div>
+               
             </div>
             <img class="image" src="/images/mian-img.png" alt="main image women in rainy jacket">
         </div>
     </div>
     <footer>
-
+        <div class="social-media-box mobile-index">
+            <a class="social-media-icon" href="https://www.facebook.com" target="_blank"><img
+                    src="/images/facebook.svg" alt="facebook"></a>
+            <a class="social-media-icon" href="https://www.instagram.com" target="_blank"><img
+                    src="/images/instagram.svg" alt="instagram."></a>
+            <a class="social-media-icon" href="https://www.twitter.com" target="_blank"><img
+                    src="/images/twitter.svg" alt="twitter"></a>
+            <p class="footer-text">&copy all rights reserved</p>        
+        </div>
     </footer>
 </body>
 

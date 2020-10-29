@@ -1,3 +1,6 @@
+/* --- buttons ---*/
+
+
 .btn {
   display: flex;
   align-self: flex-end;
@@ -21,4 +24,15 @@
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.089);
   background-color: #0a597e;
   color: #fff;
+}
+
+.btn-jacket {
+  font-size: .5vw;
+  display: inline-block;
+  padding: 1vh .6vw;
+}
+
+.btn-payment {
+  display: inline-block;
+  padding: 1vh .6vw;
 }

@@ -4,16 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="rainydays is a shop with comfortable, waterproof jackets">
+  <meta name="description" content="rainydays payment page here you can execute your order">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link rel="stylesheet" href="../style.css">
   <title>rainydays</title>
 </head>
 
 <body>
   <header>
+    <label class="hamburger" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+    <input type="checkbox" id="hamburger-menu">
     <nav>
-      <!-- <div class="logo"><a href="/"><img src="./images/logo.png" alt="logo for rainydays website"></a></div> -->
       <div class="logo"><a href="../index.html"><img src="../images/logo.png" alt="logo for rainydays website"></a>
       </div>
       <ul>
@@ -23,22 +25,56 @@
         <li><a href="/pages/contact.html">Contact</a></li>
       </ul>
       <div class="icon">
-        <a href="/pages/shopping-cart.html"><img src="../images/basket.svg" alt="shopping cart icon"></a>
+        <a href="/pages/empty-cart.html"><img src="../images/basket.svg" alt="shopping cart icon"></a>
         <a href="/pages/login.html"><img src="../images/login.svg" alt="login icon"></a>
       </div>
     </nav>
   </header>
-  <div class="shop-wrapper">
-    <div class="banner-blue-box">
-      <h2 class="blue-box-header">PAYMENT</h2>
-    </div>
-    <div class="section-payment">
-
+  <div class="payment-section-wrapper">
+    <div class="payment-section">
+      <div class="col-left-payment headers">
+        <h1>SHIPPING<br> ADDRESSE</h1>
+        <label class="form-text input-box" for="firstname">First name</label>
+        <input class="input" type="text" name="firstname" required>
+        <label class="form-text input-box" for="lastname">Last name</label>
+        <input class="input" type="text" name="lastname" required />
+        <label class="form-text input-box" for="address">Address </label>
+        <input class="input" type="text" name="address" required />
+        <label class="form-text input-box" for="city">City</label>
+        <input class="input" type="text" name="city" required />
+        <label class="form-text input-box" for="country">Country</label>
+        <input class="input" type="text" name="country" required />
+      </div>
+      <div class="col-right-payment headers">
+        <h2>PAYMENT</h2>
+        <form action="">
+          <div class="input-box">
+            <label class="form-text" for="name">Name on Card</label>
+            <input class="input" type="text" name="name" required>
+            <label class="form-text" for="name">Card Number</label>
+            <input class="input" type="text" name="cardnumber" required>
+            <label class="form-text" for="email">CVC</label>
+            <input class="input" type="text" name="cvc" required>
+            <label class="form-text" for="name">Expiry</label>
+            <input class="input" type="text" name="name" required placeholder="MM-YYYY" required>
+            <label class="form-text" for="email">Your Email</label>
+            <input class="input" type="email" name="email" require>
+            <a class="btn" href="/pages/blind-payment.html">PAY NOW</a>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
   <footer>
-
+    <div class="social-media-box">
+      <a class="social-media-icon" href="https://www.facebook.com" target="_blank"><img src="/images/facebook.svg"
+          alt="facebook"></a>
+      <a class="social-media-icon" href="https://www.instagram.com" target="_blank"><img src="/images/instagram.svg"
+          alt="instagram."></a>
+      <a class="social-media-icon" href="https://www.twitter.com" target="_blank"><img src="/images/twitter.svg"
+          alt="twitter"></a>
+      <p class="footer-text">&copy all rights reserved</p>
+    </div>
   </footer>
 </body>
-
 </html>

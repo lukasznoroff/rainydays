@@ -16,30 +16,47 @@
   height: 100%;
 }
 
-
-
-.product-col-right, .product-col-left {
+.product-col-right,
+.product-col-left {
   /* height: 100%; */
   flex-basis: 50%;
 }
 
 .product-col-left {
-  background-image: url('../images/jacket-w1.png');
-  background-repeat: no-repeat;
+  /* background-image: url('../images/woman-jacket1.png'); */
+  /* background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
-  /* background-position: center; */
+  background-position: center; */
   background-color: rgb(168, 100, 100);
+}
+.product-col-left.men {
+  /* background-image: url('../images/woman-jacket1.png'); */
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-position: center; */
+  background-color: rgba(36, 47, 97, 0.89);
+  background-color: rgba(36, 62, 97, 0.938);
+}
+
+.women-jacket-cart {
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-position: center; */
+  width: 100%;
+  height: 100%;
 }
 
 .product-col-right {
-  padding: 35px;
+  padding: 2vw;
   /* display: flex; */
   /* flex-direction: column; */
   color: #83a048;
 }
 
-.product-col-right h5 {
+.product-col-right h1 {
   font-size: 1.2vw;
   margin-bottom: 2vh;
 }
@@ -48,7 +65,6 @@
   font-size: 0.8vw;
   max-width: 600px;
   margin-bottom: 4vh;
-
 }
 
 .product-col-right h6 {
@@ -61,8 +77,6 @@
   margin-bottom: 20px;
 }
 
-
-
 .size-select label {
   display: inline-block;
   margin-right: 12px;
@@ -74,7 +88,7 @@
   transition: all 0.2s;
   margin-bottom: 40px;
 }
-  
+
 .size-select input {
   display: none;
 }
@@ -93,7 +107,7 @@
   background-color: rgb(158, 149, 149);
 }
 
-.color-select  label {
+.color-select label {
   display: inline-block;
   margin-right: 12px;
   width: 2vw;
@@ -101,7 +115,7 @@
   transition: all 0.2s;
   margin-bottom: 20px;
 }
-  
+
 .color-select input {
   display: none;
 }
@@ -113,7 +127,6 @@
 }
 .color-red {
   background-color: red;
-
 }
 
 .color-green {
@@ -127,15 +140,51 @@
 .color-select label:hover {
   border: 1px solid #000;
   cursor: pointer;
-
 }
 
 .color-select input:checked + label {
   border: 2px solid #000;
-} 
+}
 .add-btn {
-  display: flex;
-  align-self: flex-start;
-  border: none;
+  display: inline-block;
   padding: 1vh 1vw;
+}
+
+@media only screen and (max-width: 800px) {
+  .product-box-jacket {
+    flex-direction: column;
+    height: 85vh;
+  }
+  .product-col-left {
+    background-size: contain;
+    flex-basis: 0;
+  }
+  .product-col-right {
+    background-size: contain;
+    height: 50%;
+  }
+  .product-col-right h5 {
+    font-size: 4vw;
+    margin-bottom: 1vh;
+  }
+
+  .product-col-right p {
+    font-size: 2vw;
+    max-width: 600px;
+    margin-bottom: 1vh;
+  }
+
+  .product-col-right h6 {
+    font-size: 2vw;
+    margin-bottom: 20px;
+  }
+
+  .price-paragraph {
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .color-select label {
+    width: 6vw;
+    height: 6vw;
+  }
 }

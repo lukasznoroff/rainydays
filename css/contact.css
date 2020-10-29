@@ -3,17 +3,15 @@
 .contact-section-wrapper {
   width: 80%;
   margin: auto;
+  height: 70vh;
 }
-
 
 .contact-section {
   display: flex;
   width: 80%;
   margin: 40px auto;
-  height: 35vw;
+  height: 30vh;
 }
-
-
 
 .headers {
   /* background-color: #456444; */
@@ -24,17 +22,16 @@
   /* height: 60vh; */
 }
 
-.headers h3{
+.headers h1, h2 {
   color: #fff;
   font-size: 2.4vw;
   font-weight: 400;
 }
 
 .form-text {
-  font-size: .7vw;
+  font-size: 0.7vw;
   max-height: 5%;
 }
-
 
 .input-box {
   display: flex;
@@ -54,7 +51,6 @@
   margin-bottom: 3vh;
   padding: 5px;
   color: #fff;
-  
 }
 
 .col-left-contact {
@@ -76,7 +72,7 @@
   color: #fff;
 }
 
-.submit-btn  {
+.submit-btn {
   outline: none;
   border: none;
   appearance: none;
@@ -96,9 +92,32 @@
 }
 
 .col-right-contact p {
-    font-size: .6vw;
-    color: #ddd;
-    font-weight: 400;
-    margin-bottom: 3vw;
+  font-size: 0.6vw;
+  color: #ddd;
+  font-weight: 400;
+  margin-bottom: 3vw;
 }
 
+@media only screen and (max-width: 800px) {
+  .contact-section {
+    display: block;
+  }
+
+  .col-left-contact.headers {
+    margin-bottom: 40px;
+  }
+
+  .input-box .form-text {
+    font-size: 2.2vw;
+    max-height: 1%;
+    margin: 5px 0;
+  }
+
+  .headers h4 {
+    font-size: 5vw;
+    margin-top: 40px;
+  }
+  .headers p {
+    font-size: 2.3vw;
+  }
+}

@@ -1,31 +1,32 @@
 /*--- about ---*/
 
 .about-section-wrapper {
-  display: flex;
-  height: 80vh;
-  max-width: 80%;
-  margin: auto;
+  /* height: 60vh; */
 }
 
 .about-section {
   display: flex;
   align-self: center;
   flex: 1;
+  height: 70vh;
+  max-width: 80%;
+  margin: auto;
 }
 
 .about-col-left {
-  display: flex;
+  /* display: flex; */
   max-width: 30vw;
-  height: 55vh;
-  flex-direction: column;
-  justify-content: space-between;
- 
+  /* height: 80%; */
+  /* width: 25%; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  margin: auto 0;
 }
 
-.about-col-left h2 {
+.about-col-left h1, h2, h3 {
   font-size: 1.7vw;
   color: #ddd;
-  margin-bottom: .4vw;
+  margin-bottom: 0.6vw;
 }
 
 .about-col-left p {
@@ -33,17 +34,14 @@
   color: #ddd;
   font-weight: 200;
   /* margin-bottom: 60px; */
-  margin-bottom: .4vw;
-  line-height: 2;
-  
+  margin-bottom: 0.4vw;
+  line-height: 1.8;
 }
-
 
 .about-col-right {
   display: flex;
   width: 25%;
   margin: auto;
- 
 }
 
 .about-image {
@@ -56,12 +54,10 @@
   display: flex;
   background-color: #2c2a2aad;
   font-size: 1vw;
-
   text-decoration-line: none;
   color: #ddd;
-  transition: all .9s ease;
-  width: 15vw;
-
+  transition: all 0.9s ease;
+  /* width: 15vw; */
 }
 
 .btn-men-about {
@@ -76,7 +72,8 @@
   margin-top: -7px;
 }
 
-.btn-women-about:hover, .btn-men-about:hover {
+.btn-women-about:hover,
+.btn-men-about:hover {
   transform: translateY(-5px);
   /* background-color: #535a64ea; */
   background-color: #94979b0c;
@@ -87,4 +84,70 @@
 
 .btn-men-about:hover {
   transform: translateY(5px);
+}
+
+/* @media only screen and (max-width: 800px){
+
+  #hamburger-menu {
+    display:none;
+  }
+  
+  .hamburger {
+    position: absolute;
+    right: 22px;
+  }
+  
+  #hamburger-menu:checked ~ nav {
+    display: block;
+    
+  
+  }
+  }
+  
+  @media only screen and (min-width: 800px){
+   .hamburger {
+     display: none;
+   }
+   #hamburger-menu {
+     display: none;
+   }
+  } */
+
+@media only screen and (max-width: 800px) {
+  .about-section {
+    flex-direction: column-reverse;
+    width: 80%;
+    height: 100vh;
+  }
+
+  .about-col-right {
+    width: 100%;
+    margin: auto;
+  }
+
+  .about-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .btn-about {
+    padding: 30px;
+  }
+
+  .about-col-left {
+    height: 30vh;
+  }
+  .about-col-left h2 {
+    font-size: 3.7vw;
+  }
+
+  .about-col-left p {
+    font-size: 2vw;
+    width: 80vw;
+  }
+
+  .btn-women-about {
+    margin-top: -12px;
+  }
 }

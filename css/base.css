@@ -8,3 +8,42 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #414134;
 }
+
+/* --- HEADERS --- */
+
+
+/* --- shopping cart --- */
+
+.cards-headers {
+  font-size: 1vw;
+  padding: 1vw 0;
+  /* padding: .5vw; */
+  color: #ddd;
+}
+
+.cards-headers-right {
+  margin-left: 11px;
+}
+
+.cards-headers-small {
+  font-size: .6vw;
+  padding: .5vw 0;
+  color: #ddd;
+}
+
+
+
+
+
+/* --- PARAGRAPHS --- */
+
+
+
+/* --- shopping cart --- */
+
+.cards-text  {
+  font-size: .6vw;
+  color: #ddd;
+  /* display: flex;
+  justify-content: flex-end; */
+}

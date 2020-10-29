@@ -7,3 +7,10 @@
 @import "css/single-product.css";
 @import "css/contact.css";
 @import "css/login-register.css";
+@import "css/shopping-cart.css";
+@import "css/payment.css";
+@import "css/empty-cart.css";
+@import "css/blind-login.css";
+@import "css/blind-contact.css";
+@import "css/blind-register.css";
+@import "css/blind-payment.css";

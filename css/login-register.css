@@ -1,5 +1,6 @@
 /* login-register */
 
+
 .section-login {
   width: 80%;
   margin: auto;
@@ -8,11 +9,11 @@
 .columns {
   display: flex;
   width: 80%;
-  height: 70vh;
+
   margin: 40px auto;
 }
 
-.column-log-reg  {
+.column-log-reg {
   background-color: #183a49a9;
   background-color: #08364bad;
   width: max(35%, 220px);
@@ -25,15 +26,23 @@
 }
 
 .form-text {
-  font-size: .7vw;
+  font-size: 0.7vw;
   max-height: 5%;
 }
 
 .input-box {
   /* max-height: calc(95% - 10px); */
   /* height: calc(95% - 80px); */
-  height: max(60%, 300px);
+  /* height: max(60%, 300px); */
 }
+
+.col-left-login .input-box {
+  /* min-height: 65%; */
+    height: max(63%, 300px);
+
+
+}
+
 
 .btn-login {
   display: flex;
@@ -42,15 +51,28 @@
   /* place-items: flex-end; */
 }
 
-.col-left-login h3 {
+.col-left-login h1 {
   font-size: 2.5vw;
   color: #ddd;
   font-weight: 400;
 }
 
-.col-right-register h3 {
+.col-right-register h2 {
   font-size: 2.5vw;
   color: #ddd;
   font-weight: 400;
+}
 
+@media only screen and (max-width: 800px) {
+  .columns {
+    display: block;
+    width: 80vw;
+  }
+  .col-left-login.headers {
+    width: 80vw;
+    margin-bottom: 40px;
+  }
+  .col-right-register {
+    width: 80vw;
+  }
 }

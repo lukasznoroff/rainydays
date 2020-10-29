@@ -1,0 +1,17 @@
+.shop-footer {
+  display: flex;
+  height: 15vh;
+  align-items: flex-end;
+}
+
+.empty-cart {
+  padding: 20px;
+}
+
+@media only screen and (max-width: 800px){
+  .cards {
+    display: block;
+  }
+   
+
+  }

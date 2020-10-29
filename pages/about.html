@@ -4,17 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="rainydays is a shop with comfortable, waterproof jackets">
+  <meta name="description" content="rainydays is a shop with comfortable, waterproof jackets for active women and men">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link rel="stylesheet" href="../style.css">
   <title>rainydays</title>
 </head>
 
 <body>
   <header>
+    <label class="hamburger" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+    <input type="checkbox" id="hamburger-menu">
     <nav>
       <a class="logo" href="../index.html"><img src="../images/logo.png" alt="logo for rainydays website"></a>
-
       <ul>
         <li><a href="/index.html">Home</a></li>
         <li><a href="/pages/women.html">Women</a></li>
@@ -31,7 +33,7 @@
   <div class="about-section-wrapper">
     <div class="about-section">
       <div class="about-col-left">
-        <h2>Active</h2>
+        <h1>Active</h1>
         <p>
           Nequi omnit quasit eost aut fugit ut estium susam fuga. Ficaepe liatque porepera dolorporum que del et est et
           que et anis cum nos.
@@ -45,7 +47,7 @@
           porro harum temporibus commodi et, consequatur, ipsum odit dolor! Blanditiis aspernatur alias voluptates
           excepturi.
         </p>
-        <h2>Timeless</h2>
+        <h3>Timeless</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae optio iste tempore similique magnam?
           Odio eos dolorem excepturi soluta est, eaque vitae porro harum temporibus commodi et, consequatur.
@@ -57,15 +59,21 @@
           <a class="btn-women-about btn-about" href="../pages/women.html">WOMEN</a>
         </div>
         <div class="men-card">
-          <a class="btn-men-about btn-about" href="../pages/">MEN</a>
+          <a class="btn-men-about btn-about" href="../pages/men.html">MEN</a>
           <img class="about-image" src="../images/man.png" alt="">
         </div>
       </div>
     </div>
-
     <footer>
-
+      <div class="social-media-box">
+        <a class="social-media-icon" href="https://www.facebook.com" target="_blank"><img src="/images/facebook.svg"
+            alt="facebook"></a>
+        <a class="social-media-icon" href="https://www.instagram.com" target="_blank"><img src="/images/instagram.svg"
+            alt="instagram."></a>
+        <a class="social-media-icon" href="https://www.twitter.com" target="_blank"><img src="/images/twitter.svg"
+            alt="twitter"></a>
+        <p class="footer-text">&copy all rights reserved</p>
+      </div>
     </footer>
 </body>
-
 </html>

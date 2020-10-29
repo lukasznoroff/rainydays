@@ -1,0 +1,133 @@
+/*--- payment ---*/
+
+.payment-section-wrapper {
+  width: 80%;
+  margin: auto;
+  height: 70vh;
+}
+
+.payment-section {
+  display: flex;
+  width: 80%;
+  margin: 40px auto;
+  height: 30vh;
+}
+
+.headers {
+  /* background-color: #456444; */
+  /* width: 500px; */
+  /* justify-content: center; */
+  padding: 50px;
+  margin: auto;
+  /* height: 60vh; */
+}
+
+.headers h1, h2 {
+  color: #fff;
+  font-size: 2vw;
+  font-weight: 400;
+  margin-bottom: 40px;
+  line-height: 1.4;
+}
+
+.form-text {
+  font-size: 0.7vw;
+  max-height: 5%;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  /* height: 500px; */
+  /* max-width: 300px; */
+  /* margin-bottom: 40px; */
+  color: #ddd;
+}
+
+.input {
+  background-color: #183a49a9;
+  background-color: #183a4900;
+  border: none;
+  border-bottom: 2px #707070 solid;
+  outline: none;
+  margin-bottom: 3vh;
+  padding: 5px;
+  color: #fff;
+}
+
+.col-left-payment {
+  background-color: #08364bad;
+  flex-basis: 35%;
+  justify-content: space-between;
+  padding: 40px;
+  height: 60vh;
+}
+
+.textarea {
+  /* background-color: rgba(221, 221, 221, 0.466); */
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  /* margin-bottom: 10px; */
+  width: 9vw;
+  height: 4vw;
+  color: #fff;
+}
+
+.submit-btn {
+  outline: none;
+  border: none;
+  appearance: none;
+}
+
+.col-right-payment {
+  background-color: #313632;
+  flex-basis: 35%;
+  height: 60vh;
+}
+
+.col-right-payment h1 {
+  font-size: 2vw;
+  color: #ddd;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.col-right-payment p {
+  font-size: 0.6vw;
+  color: #ddd;
+  font-weight: 400;
+  margin-bottom: 3vw;
+}
+
+.col-right-payment {
+  /* background-image: url("/images/woman.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 800px) {
+  .col-left-payment {
+    margin-bottom: 40px;
+    height: 70vh;
+  }
+  .col-right-payment {
+    height: 70vh;
+  }
+
+  .submit-btn {
+    margin-top: 5px;
+    padding: 1vh 5vw;
+    font-size: 3vw;
+  }
+
+  .payment-section {
+    display: block;
+  }
+  .headers h1 {
+    font-size: 6vw;
+  }
+  .form-text {
+    font-size: 2vw;
+  }
+}
