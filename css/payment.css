@@ -107,13 +107,8 @@
 }
 
 @media only screen and (max-width: 800px) {
-  html, body {
-    overflow-x: hidden;
-  }
-  body {
-    position: relative
-  }
-  
+
+
 
   .col-left-payment {
     margin-bottom: 40px;
