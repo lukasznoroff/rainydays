@@ -163,7 +163,7 @@
   .wraper {
     /* display: flex; */
     /* align-items: center; */
-    height: 90vh;
+    height: 100vh;
   }
 
   .section-header {
@@ -178,8 +178,8 @@
   }
   .col-left {
     /* display: flex; */
-    height: 30vh;
-    margin-top: 40px;
+    height: 45vh;
+    margin-top: 20px;
   }
   .col-left h1 {
     font-size: 4.3vw;
@@ -191,7 +191,7 @@
     font-weight: 200;
     line-height: 1.6;
     font-size: 2.3vw;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: justify;
   }
   .btn {
