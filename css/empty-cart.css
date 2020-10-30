@@ -1,16 +1,47 @@
-.shop-footer {
-  display: flex;
-  height: 15vh;
-  align-items: flex-end;
+/* --- empty cart --- */
+
+
+.empty-cart {
+  background-image: url("/images/woman.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 700px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 40px;
 }
 
 .empty-cart {
-  padding: 20px;
 }
 
+.shop-footer {
+  display: flex;
+  height: 5vh;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+
+.s-text {
+  /* color: #ddd; */
+  display: flex;
+  align-self: center;
+  margin-left: auto;
+  font-size: .8vw;
+  align-self: flex-end;
+}
+
+
+
+
+
 @media only screen and (max-width: 800px){
-  .cards {
-    display: block;
+  .empty-cart {
+    width: 400px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
   }
    
 

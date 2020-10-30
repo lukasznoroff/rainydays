@@ -24,13 +24,15 @@
 .col-left h1 {
   color: #ddd;
   font-size: 2.3vw;
+  margin-bottom: 40px;
 }
 
 .col-left p {
   color: #ddd;
   font-weight: 200;
-  line-height: 1.6;
+  line-height: 1.9;
   font-size: .7vw;
+  flex: 1;
 }
 
  

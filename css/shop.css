@@ -96,7 +96,7 @@
     display: flex;
     flex-direction: column;
     object-fit: contain;
-    grid-row-gap: 28vw;
+    gap: 48vw;
     margin: 0;
     width: 100%;
   }
@@ -107,10 +107,12 @@
     display: block;
   }
   .card {
-    height: 50vw;
+    height: 70vw;
     transition: all 1s;
     border: 1px solid rgb(43, 39, 39);
   }
+
+  
 
   .banner-blue-box {
     display: contents;
@@ -132,6 +134,7 @@
     font-size: 2.5vw;
     display: inline-block;
     padding: 1vh 2.6vw;
+  
   }
   .cards-headers-small {
     font-size: 3vw;

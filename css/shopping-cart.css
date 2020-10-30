@@ -5,12 +5,14 @@
   margin: auto;
   display: flex;
   height: 60vh;
+  
 }
 
 .cards {
   display: flex;
   margin: auto;
   height: 60vh;
+  min-width: 60%;
 }
 
 .card-col {
@@ -19,6 +21,7 @@
 
 .product-card {
   min-width: 1100px;
+  min-width: 60%;
   display: flex;
   background-color: #cac8a3;
   background-color: #969471;
@@ -43,7 +46,7 @@
 
 .single-line {
   padding: 3px;
-  /* max-height: 12px; */
+  /* max-height: 40px; */
   /* height: 10px; */
   /* max-height: .9vw; */
   /* height: 1vw; */
@@ -99,6 +102,7 @@
 
 .credit-card {
   width: 40%;
+  
 }
 
 .cart-buttons {
@@ -150,40 +154,65 @@
 
 @media only screen and (max-width: 800px) {
   .cards-wrapper {
-    width: 80%;
-    margin: auto;
+    width: 90%;
+    /* margin: auto; */
     /* display: flex; */
-    height: 60vh;
-  }
-  .cart-jacket {
-    /* width: 13vw; */
-    width: 15%;
-    /* max-width: 400px; */
-    object-fit: contain;
-    margin: auto;
-  }
-  .product-card {
-    min-width: 300px;
+    height: 65vh;
     margin-top: 40px;
   }
   .cart-jacket {
     /* width: 13vw; */
-    width: 50%;
-
+    /* width: 15%; */
     /* max-width: 400px; */
     /* object-fit: contain; */
+    /* margin: auto; */
+    /* height: 400px; */
+    /* height: 53vh; */
+  }
+  .product-card {
+    /* min-width: 300px; */
+    /* margin-top: 40px; */
+    /* display: block; */
+    /* display: flex; */
+  }
+  .cart-jacket {
+    /* width: 13vw; */
+    width: 50%;
+    height: 60%;
+    object-fit: cover;
+    object-fit: contain;
+  
+   
   }
   .cards-headers {
     font-size: 4vw;
-    padding: 1vw 0;
+    padding: 3vw 0;
+    padding: 20px;
   }
   .cards-text {
-    font-size: 2vw;
+    font-size: 2.2vw;
   }
   .credit-card {
-    width: 100%;
-    margin: auto;
+    /* width: 100%; */
+    /* margin: auto; */
+    /* display: none; */
+    display: flex;
+    flex-direction: row-reverse;
   }
+.cards-headers-right {
+  display: none;
+}
+
+.credit-card {
+  width: 0;
+  /* display: block; */
+}
+
+.cards-info  li:first-child {
+  display: none;
+}
+
+
   .credit-cards {
     min-height: 20vh;
     /* width: 12vw; */
@@ -193,20 +222,33 @@
     margin: auto;
   }
   .single-line .cards-text {
-    display: none;
+    /* display: none; */
   }
   .credit-cards .credit-card {
-    width: 70px;
+    /* width: 70px; */
     /* height: 100%; */
-    margin: 0 2px;
-    object-fit: contain;
-    background-size: cover;
+    /* margin: 0 2px; */
+    /* object-fit: contain; */
+    /* background-size: cover; */
   }
   .mobile {
     display: none;
   }
   .button-payment-box {
     height: 10vh;
+    width: 400px;
     align-self: flex-end;
+  }
+  .social-media-box {
+    display: none;
+  }
+  .btn {
+    /* margin-right: 164px; */
+    width: max-content;
+
+  }
+
+  .btn-payment .btn {
+    display: block;
   }
 }

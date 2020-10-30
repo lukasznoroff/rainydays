@@ -24,7 +24,7 @@
 
 .headers h1, h2 {
   color: #fff;
-  font-size: 2vw;
+  /* font-size: 2vw; */
   font-weight: 400;
   margin-bottom: 40px;
   line-height: 1.4;
