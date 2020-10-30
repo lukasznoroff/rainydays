@@ -96,9 +96,10 @@
     display: flex;
     flex-direction: column;
     object-fit: contain;
-    gap: 60vw;
+    gap: 90vw;
     margin: 0;
     width: 100%;
+   
   }
 
   .shop-wrapper {
