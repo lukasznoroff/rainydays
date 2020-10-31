@@ -81,12 +81,13 @@
   .about-section {
     flex-direction: column-reverse;
     width: 80%;
-    height: 100vh;
+    height: auto;
   }
 
   .about-col-right {
-    width: 80%;
+    width: 100%;
     margin: auto;
+
   }
 
   .about-image {
@@ -101,18 +102,26 @@
   }
 
   .about-col-left {
-    height: 30vh;
+    height: auto;
+
   }
   .about-col-left h2 {
-    font-size: 3.7vw;
+    font-size: 20px;
   }
 
   .about-col-left p {
-    font-size: 2vw;
+    font-size: 15px;
     width: 80vw;
   }
 
   .btn-women-about {
     margin-top: -12px;
+  }
+  .btn-about {
+    font-size: 15px;
+  }
+  .about-col-left h1, h2, h3 {
+    font-size: 20px
+   
   }
 }

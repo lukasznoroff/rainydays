@@ -160,7 +160,9 @@
 
 @media only screen and (max-width: 800px) {
 
-
+  .product-box {
+    height: auto;
+  }
 
   .product-box-jacket {
     flex-direction: column;
@@ -171,11 +173,13 @@
   .product-col-left {
     background-size: contain;
     flex-basis: 0;
-    height: 40vh;
+    height: auto;
+
     
   }
   .product-col-right {
     background-size: contain;
+    height: auto;
     /* height: 50%; */
   }
   .product-col-right h5 {
