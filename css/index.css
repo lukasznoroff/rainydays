@@ -93,15 +93,17 @@
 }
 .hamburger-close {
   position: absolute;
-  right: 22px;
+  right: 17px;
   color: #fff;
-  padding: 12px;
-  background-color: #94979b0c;
+  padding: 5px;
+  background-color: #414134;
   display: none;
 
 }
 #hamburger-menu:checked ~ .hamburger-close {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 
 }
 }

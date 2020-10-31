@@ -137,7 +137,16 @@
   justify-content: center;
 }
 
+
+
 @media only screen and (max-width: 800px) {
+  .cards {
+    height: auto;
+    min-width: 0;
+    width: 100%;
+    flex-direction: column;
+  }
+
   .cards-wrapper {
     width: 90%;
     height: 65vh;
