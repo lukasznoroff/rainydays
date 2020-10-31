@@ -113,10 +113,14 @@
 
   .col-left-payment {
     margin-bottom: 40px;
-    height: 70vh;
+    height: auto;
+    width: 100%;
+    flex-basis: auto;
   }
   .col-right-payment {
-    height: 70vh;
+    height: auto;
+    width: 100%;
+    flex-basis: auto;
   }
 
   .submit-btn {
@@ -128,6 +132,7 @@
   .payment-section {
     width: 100%;
     height: auto;
+    flex-direction: column;
   }
   .headers h1 {
     font-size: 6vw;
