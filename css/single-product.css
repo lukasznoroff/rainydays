@@ -159,9 +159,14 @@
 
 
 @media only screen and (max-width: 800px) {
+
+
+
   .product-box-jacket {
     flex-direction: column;
-    height: 85vh;
+    max-width: none;
+    width: 100%;
+    
   }
   .product-col-left {
     background-size: contain;
