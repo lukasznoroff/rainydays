@@ -82,23 +82,25 @@
     flex-direction: column-reverse;
     width: 80%;
     height: auto;
+    padding-top: 50px;
   }
 
   .about-col-right {
     width: 100%;
     margin: auto;
-
+    margin-bottom: 40px;
   }
 
   .about-image {
-    height: 100%;
+    height: auto;
     width: 100%;
     object-fit: cover;
   }
   
   .btn-about {
     padding: 30px;
-    min-width: 44vw;
+    width: 100%;
+
   }
 
   .about-col-left {
