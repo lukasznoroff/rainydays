@@ -83,11 +83,25 @@
 .hamburger {
   position: absolute;
   right: 22px;
+  color: #fff;
 }
 
 #hamburger-menu:checked ~ nav {
   display: block;
   
+
+}
+.hamburger-close {
+  position: absolute;
+  right: 22px;
+  color: #fff;
+  padding: 12px;
+  background-color: #94979b0c;
+  display: none;
+
+}
+#hamburger-menu:checked ~ .hamburger-close {
+  display: block;
 
 }
 }
