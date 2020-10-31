@@ -5,7 +5,6 @@
   margin: auto;
   display: flex;
   height: 60vh;
-  
 }
 
 .cards {
@@ -102,9 +101,7 @@
 
 .credit-card {
   width: 40%;
-  
 }
-
 
 .flat-btn {
   display: table;
@@ -129,15 +126,13 @@
 .flat-btn:hover {
   color: #fff;
   text-decoration: underline;
-  transform: scale(1.04)
+  transform: scale(1.04);
 }
 
 .button-payment-box {
   display: flex;
   justify-content: center;
 }
-
-
 
 @media only screen and (max-width: 800px) {
   .cards {
@@ -158,43 +153,28 @@
     height: 60%;
     /* object-fit: cover; */
     object-fit: contain;
-  
-   
   }
   .cards-headers {
     font-size: 4vw;
     padding: 20px 0;
-
   }
   .cards-text {
     font-size: 2.2vw;
   }
   .credit-card {
-    /* margin: auto; */
-    /* display: none; */
-    /* display: flex; */
-    /* flex-direction: row-reverse; */
+    width: 100%;
   }
-.cards-headers-right {
-  /* display: none; */
-}
 
-.credit-card {
-  /* width: 0; */
-  /* display: block; */
-}
-
-.cards-info  li:first-child {
-  display: none;
-}
-
+  .cards-info li:first-child {
+    display: none;
+  }
 
   .credit-cards {
-    /* min-height: 20vh; */
-    /* width: 12vw; */
-    /* display: flex; */
+    width: 100%;
+    height: auto;
     padding: 2px;
     justify-content: center;
+    text-align: center;
     margin: auto;
   }
 
@@ -205,13 +185,17 @@
     display: none;
   }
   .button-payment-box {
-    height: 30vh;
-   
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
   .social-media-box {
     display: none;
   }
   .btn {
     width: max-content;
+  }
+  .credit-cards-info {
+    display: none;
   }
 }
