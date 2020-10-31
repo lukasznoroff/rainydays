@@ -105,22 +105,6 @@
   
 }
 
-.cart-buttons {
-  /* margin-left: auto; */
-  /* width: 200px; */
-  /* display: flex; */
-  /* justify-content: space-around; */
-  /* max-height: 250px; */
-}
-/* .cart-buttons2 {
-  margin-left: auto;
-  width: 50%;
- padding: 0;
-  display: flex;
-  justify-content: space-around;
-
-
-} */
 
 .flat-btn {
   display: table;
@@ -145,6 +129,7 @@
 .flat-btn:hover {
   color: #fff;
   text-decoration: underline;
+  transform: scale(1.04)
 }
 
 .button-payment-box {
@@ -155,56 +140,38 @@
 @media only screen and (max-width: 800px) {
   .cards-wrapper {
     width: 90%;
-    /* margin: auto; */
-    /* display: flex; */
     height: 65vh;
     margin-top: 40px;
   }
+
   .cart-jacket {
-    /* width: 13vw; */
-    /* width: 15%; */
-    /* max-width: 400px; */
-    /* object-fit: contain; */
-    /* margin: auto; */
-    /* height: 400px; */
-    /* height: 53vh; */
-  }
-  .product-card {
-    /* min-width: 300px; */
-    /* margin-top: 40px; */
-    /* display: block; */
-    /* display: flex; */
-  }
-  .cart-jacket {
-    /* width: 13vw; */
     width: 50%;
     height: 60%;
-    object-fit: cover;
+    /* object-fit: cover; */
     object-fit: contain;
   
    
   }
   .cards-headers {
     font-size: 4vw;
-    padding: 3vw 0;
-    padding: 20px;
+    padding: 20px 0;
+
   }
   .cards-text {
     font-size: 2.2vw;
   }
   .credit-card {
-    /* width: 100%; */
     /* margin: auto; */
     /* display: none; */
-    display: flex;
-    flex-direction: row-reverse;
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
   }
 .cards-headers-right {
-  display: none;
+  /* display: none; */
 }
 
 .credit-card {
-  width: 0;
+  /* width: 0; */
   /* display: block; */
 }
 
@@ -214,41 +181,28 @@
 
 
   .credit-cards {
-    min-height: 20vh;
+    /* min-height: 20vh; */
     /* width: 12vw; */
-    display: flex;
+    /* display: flex; */
     padding: 2px;
     justify-content: center;
     margin: auto;
   }
-  .single-line .cards-text {
-    /* display: none; */
-  }
+
   .credit-cards .credit-card {
-    /* width: 70px; */
-    /* height: 100%; */
-    /* margin: 0 2px; */
-    /* object-fit: contain; */
-    /* background-size: cover; */
+    width: 70px;
   }
   .mobile {
     display: none;
   }
   .button-payment-box {
-    height: 10vh;
-    width: 400px;
-    align-self: flex-end;
+    height: 30vh;
+   
   }
   .social-media-box {
     display: none;
   }
   .btn {
-    /* margin-right: 164px; */
     width: max-content;
-
-  }
-
-  .btn-payment .btn {
-    display: block;
   }
 }

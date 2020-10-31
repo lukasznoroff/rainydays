@@ -21,9 +21,10 @@
   height: calc(58vh + 50px);
 }
 
-.input {
+/* .input {
   width: calc(85% - 20px);
-}
+  width: 16vw;
+} */
 
 .form-text {
   font-size: 0.7vw;
@@ -31,9 +32,9 @@
 }
 
 .input-box {
-  /* max-height: calc(95% - 10px); */
-  /* height: calc(95% - 80px); */
-  /* height: max(60%, 300px); */
+  max-height: calc(95% - 10px);
+  height: calc(95% - 80px);
+  height: max(60%, 300px);
 }
 
 .col-left-login .input-box {
@@ -67,6 +68,9 @@
   .columns {
     display: block;
     width: 80vw;
+  }
+  .input {
+    width: 40vw;
   }
   .col-left-login.headers {
     width: 80vw;

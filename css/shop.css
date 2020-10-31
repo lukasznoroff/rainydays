@@ -65,9 +65,65 @@
 .banner-blue-box {
   width: 13.5vw;
   height: 10vw;
-  /* background-color: rgba(41, 45, 90, 0.853); */
   background-color: #043850;
+  animation-delay: .6s;
+  transform: scale(0);
+  opacity: 0;
+  animation: blur 1s forwards;
 }
+
+@keyframes blur {
+  25% {
+  transform: scale(.2);
+  filter: blur(24px);
+    opacity: .3;
+  }
+  50% {
+    transform: scale(.4);
+   transform: scaleX(.8);
+   transform: scaleY(.7);
+  filter: blur(14px);
+  filter: sepia(1) saturate(1);
+    
+    opacity: .6;
+  }
+  75% {
+  transform: scale(.6);
+  transform: scaleY(-1);
+  filter: blur(4px);
+  filter: sepia(1) saturate(1);
+   
+    opacity: 8;
+
+  }
+  100% {
+  transform: scale(1);
+   
+    opacity: 1;
+
+  }
+
+}
+
+
+
+/* @keyframes slide {
+  30% {
+    left: 300px;
+
+    opacity: .3;
+  }
+  70% {
+    left: 100px;
+    opacity: .8;
+  }
+  100% {
+    left: 250px;
+    opacity: 1;
+
+  }
+
+} */
 
 .blue-box-header {
   font-weight: 200;
@@ -75,7 +131,26 @@
   padding: 20% 0 15% 4%;
   color: #e2e3ef;
   font-size: clamp(0.9rem, 1.3vw, 3rem);
+  animation: slide 5s infinite;
 }
+
+ @keyframes slide {
+  30% {
+    left: 300px;
+
+    opacity: .3;
+  }
+  70% {
+    left: 100px;
+    opacity: .8;
+  }
+  100% {
+    left: 250px;
+    opacity: 1;
+
+  }
+
+} 
 
 .blue-box-text {
   background-color: #043850;
@@ -121,6 +196,8 @@
   }
   .blue-box-header {
     display: block;
+    animation: none;
+
   }
 
   .blue-box-text {

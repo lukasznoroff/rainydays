@@ -11,8 +11,9 @@ body {
 
 
 /* --- HEADERS --- */
-/* h1, h2 {
+/* h1, h2, h3 {
   font-size: 2.4vw;
+
 } */
 
 /* --- shopping cart --- */
@@ -33,6 +34,23 @@ body {
   padding: .5vw 0;
   color: #ddd;
 }
+
+
+/* --- INPUTS --- */
+
+.input {
+  background-color: #183a49a9;
+  background-color: #183a4900;
+  border: none;
+  border-bottom: 2px #707070 solid;
+  outline: none;
+  margin-bottom: 3vh;
+  padding: 5px;
+  color: #fff;
+  width: 16vw;
+}
+
+
 
 
 
