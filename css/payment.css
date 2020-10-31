@@ -106,10 +106,11 @@
   background-repeat: no-repeat;
 }
 
+
+
+
+
 @media only screen and (max-width: 800px) {
-
-
-
   .col-left-payment {
     margin-bottom: 40px;
     height: 70vh;

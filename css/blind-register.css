@@ -33,19 +33,7 @@
 
 @media only screen and (max-width: 1100px){
   
-  .blind-register {
-    width: 60vh;
-  
-   background-image: url("/images/register-image-min.png");
-   background-repeat: no-repeat;
-   /* background-size: contain; */
-   background-size: cover;
-   width: 400px;
-   /* height: 700px; */
-   height: 65vh;
-   margin: auto;
-   
-  }
+
 
   }
 
