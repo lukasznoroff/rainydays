@@ -2,65 +2,43 @@
 
 .product-box {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   height: 60vh;
- width: 80vw;
- margin: auto;
+  width: 80vw;
+  margin: auto;
 }
 
 .product-box-jacket {
   display: flex;
   width: 80%;
   max-width: 60%;
-  background-color: #fdfbd4;
+  background-color: var(--bgc-single-col-right);
   margin-top: 40px;
   height: 100%;
-  /* height: 60vh;
-  min-width: 60%; */
 }
 
 .product-col-right,
 .product-col-left {
-  /* height: 100%; */
   flex-basis: 50%;
   min-width: 1100px;
   min-width: 10%;
   height: 60vh;
 }
 
-.product-col-left {
-  /* background-image: url('../images/woman-jacket1.png'); */
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-  background-position: center; */
-  background-color: rgb(168, 100, 100);
-}
 .product-col-left.men {
-  /* background-image: url('../images/woman-jacket1.png'); */
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-  background-position: center; */
-  background-color: rgba(36, 47, 97, 0.89);
-  background-color: rgba(36, 62, 97, 0.938);
+  background-color: var(--bgc-single-col-left);
 }
 
 .women-jacket-cart {
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-  background-position: center; */
   width: 100%;
-  /* height: 100%; */
 }
 
 .product-col-right {
   padding: 2vw;
   color: var(--text-color2);
 }
-.product-col-right p, h6 {
+.product-col-right p,
+h6 {
   color: var(--text-color2);
 }
 
@@ -68,7 +46,6 @@
   font-size: 1.2vw;
   margin-bottom: 2vh;
   color: var(--text-color2);
-
 }
 
 .product-col-right p {
@@ -103,9 +80,7 @@
   display: none;
 }
 
-/* .size-select label:last-child {
-  margin-right: 0;
-} */
+
 
 .size-select label:hover {
   background-color: rgb(218, 204, 204);
@@ -113,7 +88,7 @@
 
 .size-select input:checked + label {
   font-weight: 700;
-  color: #fff;
+  color: var(--white-color);
   background-color: rgb(158, 149, 149);
 }
 
@@ -160,9 +135,7 @@
   padding: 1vh 1vw;
 }
 
-
 @media only screen and (max-width: 800px) {
-
   .product-box {
     height: auto;
   }
@@ -171,14 +144,11 @@
     flex-direction: column;
     max-width: none;
     width: 100%;
-    
   }
   .product-col-left {
     background-size: contain;
     flex-basis: 0;
     height: auto;
-
-    
   }
   .product-col-right {
     background-size: contain;

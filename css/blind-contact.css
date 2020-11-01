@@ -1,33 +1,7 @@
-
-
-.blind-contact {
-  /* width: 80vw; */
- background-image: url("/images/woman.png");
- /* background-repeat: no-repeat;
- background-size: contain;
-
- margin: auto; */
- 
-}
+/* ---blind links --- */
 
 .blind-contact {
-  padding: 20px;
-  /* height: 80vh; */
- 
+  background-image: url("/images/woman.png");
 }
 
 
-
-
-
-.shop-footer {
-  display: flex;
-  height: 15vh;
-  align-items: flex-end;
-}
-
-
-@media only screen and (max-width: 800px){
- 
-
-  }

@@ -12,7 +12,9 @@
   margin: auto 0;
 }
 
-.about-col-left h1, h2, h3 {
+.about-col-left h1,
+h2,
+h3 {
   color: var(--headers-color);
   margin-bottom: 0.6vw;
 }
@@ -66,8 +68,6 @@
   transform: translateY(5px);
 }
 
-
-
 @media only screen and (max-width: 800px) {
   .about-section {
     flex-direction: column-reverse;
@@ -87,7 +87,7 @@
     width: 100%;
     object-fit: cover;
   }
-  
+
   .btn-about {
     padding: 30px;
     width: 100%;
@@ -113,8 +113,8 @@
     font-size: 15px;
   }
 
-  .about-col-left h1, h2 {
-    font-size: 20px
-   
+  .about-col-left h1,
+  h2 {
+    font-size: 20px;
   }
 }

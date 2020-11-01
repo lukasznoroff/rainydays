@@ -1,19 +1,27 @@
 :root {
---bg-color: #414134;
---white-color: #fff;
---headers-color: rgb(235, 227, 227);
---text-color: #ddd;
---text-color2: #83a048;
---btn-about-color: #2c2a2aad;
---bgc-mobile: #333;
---hover-color: #fff;
---blue-box-color: #043850;
---bgc-col-left: #08364bad;
---bgc-col-right: #313632;
---media-color: #0D638A;
+  --bg-color: #414134;
+  --white-color: #fff;
+  --headers-color: rgb(235, 227, 227);
+  --text-color: #ddd;
+  --text-color2: #83a048;
+  --btn-about-color: #2c2a2aad;
+  --bgc-mobile: #333;
+  --hover-color: #fff;
+  --blue-box-color: #043850;
+  --bgc-col-left: #08364bad;
+  --bgc-col-right: #313632;
+  --media-color: #0d638a;
+  --inputs-bgc: #183a4900;
+  --border-bottom-color: #707070;
+  --number-underline-color: rgb(74, 78, 77);
+  --rainydays-color: rgb(93, 231, 185);
+  --rainydays-bgc-color: rgba(81, 99, 133, 0.76);
+  --bgc-shop-col-left: #969471;
+  --bgc-shop-col-right: rgb(161, 153, 153);
+  --flat-btn-color: rgba(206, 168, 168, 0.295);
+  --bgc-single-col-right: #fdfbd4;
+  --bgc-single-col-left: rgba(36, 62, 97, 0.938);
 }
-
-
 
 * {
   margin: 0;
@@ -27,29 +35,30 @@ body {
 }
 
 /* --- headers --- */
- h1, h2 {
+h1,
+h2 {
   color: var(--headers-color);
   font-size: 1.5vw;
   font-weight: 400;
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   color: var(--headers-color);
   font-size: 1.3vw;
 }
 
 /* --- paragraphs --- */
- p {
+p {
   color: var(--text-color);
   font-weight: 100;
   line-height: 1.7;
-  font-size: .74vw;
+  font-size: 0.74vw;
 }
 
-
-
-
-/* --- shopping cart --- */
+/* --- shopping carts --- */
 
 .cards-headers {
   font-size: 1vw;
@@ -70,28 +79,22 @@ h3, h4, h5, h6 {
 /* --- INPUTS --- */
 
 .input {
-  background-color: #183a49a9;
-  background-color: #183a4900;
+  background-color: var(--inputs-bgc);
   border: none;
-  border-bottom: 2px #707070 solid;
+  border-bottom: 2px solid var(--border-bottom-color);
   outline: none;
   margin-bottom: 3vh;
   padding: 5px;
-  color: #fff;
+  color: var(--white-color);
   width: 16vw;
 }
-
-/* --- PARAGRAPHS --- */
 
 /* --- shopping cart --- */
 
 .cards-text {
   font-size: 0.6vw;
-  color: #ddd;
-  /* display: flex;
-  justify-content: flex-end; */
+  color: var(--text-color);
 }
-
 
 /* --- blind links --- */
 
@@ -101,13 +104,23 @@ h3, h4, h5, h6 {
   width: 500px;
   height: 700px;
   margin: auto;
-} 
+}
 
-@media only screen and (max-width: 800px){
+.blind-login {
+  padding: 20px;
+}
+
+.shop-footer {
+  display: flex;
+  height: 15vh;
+  align-items: flex-end;
+}
+
+@media only screen and (max-width: 800px) {
   .all-blind-links {
     width: 80vw;
     margin-top: 40px;
-  } 
+  }
 }
 
 .page-footer {

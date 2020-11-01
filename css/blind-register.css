@@ -1,17 +1,7 @@
+/* ---blind links --- */
 
-
-.blind-register  {
-  /* width: 60vh; */
-
- background-image: url("/images/register-image-min.png");
- /* background-repeat: no-repeat; */
- /* background-size: contain; */
- /* background-size: cover; */
- /* width: 500px;
- height: 700px; */
- /* height: 60vh; */
- /* margin: auto; */
- 
+.blind-register {
+  background-image: url("/images/register-image-min.png");
 }
 
 .blind-register {
@@ -19,21 +9,6 @@
 }
 
 .rainydays-bgc {
-  color: rgb(93, 231, 185);
-  background-color: rgba(81, 99, 133, 0.76);
-  /* filter: blur(.7px) grayscale(10%); */
- 
+  color: var(--rainydays-color);
+  background-color: var(--rainydays-bgc-color);
 }
-
-
-
-
-
-
-
-@media only screen and (max-width: 1100px){
-  
-
-
-  }
-

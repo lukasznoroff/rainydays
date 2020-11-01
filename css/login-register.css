@@ -1,6 +1,5 @@
 /* login-register */
 
-
 .section-login {
   width: 80%;
   margin: auto;
@@ -14,58 +13,24 @@
 
 .column-log-reg {
   background-color: var(--bgc-col-left);
-  /* background-color: #08364bad; */
   width: max(35%, 220px);
-  /* height: 60vh; */
-height: 60vh;
-
+  height: 60vh;
 }
-
-/* .input {
-  width: calc(85% - 20px);
-  width: 16vw;
-} */
 
 .form-text {
   font-size: 0.7vw;
   max-height: 5%;
 }
 
-/* .input-box {
-  max-height: calc(95% - 10px);
-  height: calc(95% - 80px);
-  height: max(60%, 300px);
-} */
-
 .col-left-login .input-box {
-  /* min-height: 65%; */
-    height: max(63%, 300px);
-
-
+  height: max(63%, 300px);
 }
-
 
 .btn-login {
   display: flex;
   justify-content: flex-end;
   margin-block-start: auto;
-  /* place-items: flex-end; */
 }
-
-/* .col-left-login h1 {
-  font-size: 2.5vw;
-  color: #ddd;
-  font-weight: 400;
-} */
-
-/* .col-right-register h2 {
-  font-size: 2.5vw;
-  color: #ddd;
-  font-weight: 400;
-} */
-
-
-
 
 @media only screen and (max-width: 800px) {
   .columns {

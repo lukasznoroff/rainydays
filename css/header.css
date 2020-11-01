@@ -35,14 +35,14 @@ ul li {
 }
 
 ul li a {
-  color: #e2e3ef;
+  color: var(--text-color);
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
 
 li a:hover {
-  color: #fff;
-  border-bottom: 2px solid #fff;
+  color: var(--white-color);
+  border-bottom: 2px solid var(--white-color);
 }
 
 

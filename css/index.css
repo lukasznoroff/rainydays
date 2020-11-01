@@ -67,7 +67,7 @@
   .hamburger {
     position: absolute;
     right: 22px;
-    color: #fff;
+    color: var(--text-color);
   }
 
   #hamburger-menu:checked ~ nav {
@@ -76,7 +76,7 @@
   .hamburger-close {
     position: absolute;
     right: 17px;
-    color: #fff;
+    color: var(--text-color);
     padding: 5px;
     background-color: var(--bg-color);
     display: none;

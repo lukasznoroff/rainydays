@@ -100,8 +100,6 @@
   font-weight: 200;
   background-color: var(--blue-box-color);
   padding: 20% 0 15% 4%;
-  /* color: #e2e3ef; */
-  /* font-size: clamp(0.9rem, 1.3vw, 3rem); */
   animation: slide 5s infinite;
 }
 
@@ -124,8 +122,6 @@
 .blue-box-text {
   background-color: var(--blue-box-color);
   padding: 0 4% 25%;
-  /* color: #b5b6c5; */
-  /* font-size: clamp(0.5rem, 0.8vw, 3rem); */
 }
 
 .shop-footer {
@@ -187,7 +183,6 @@
 @media only screen and (max-width: 800px) {
   .blue-box-header {
     font-size: 25px;
-    
   }
   .blue-box-text {
     font-size: 15px;
