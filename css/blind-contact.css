@@ -4,4 +4,10 @@
   background-image: url("/images/woman.png");
 }
 
+.cards-headers {
+  color: rgb(228, 208, 183);
+}
 
+.flat-btn {
+  margin: 20px;
+}

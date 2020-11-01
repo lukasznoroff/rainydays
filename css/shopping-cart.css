@@ -25,6 +25,13 @@
   background-color: var(--bgc-shop-col-left);
 }
 
+.cards-headers, .cart-dark{
+  color: #4d4343;
+  padding: 20px;
+}
+
+
+
 .product-info {
   display: inline-block;
 
@@ -33,10 +40,11 @@
 
 .single-line {
   padding: 3px;
+  color: #4d4343;
 }
 
 .product-cart-bottom li:first-child {
-  border-bottom: 1px solid var(--text-color);
+  border-bottom: 1px solid  #4d4343;
   padding: 0;
   width: 20vw;
   margin-bottom: 20px;
@@ -70,7 +78,7 @@
 }
 
 .cards-info li:first-child {
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid #4d4343;;
   width: 16vw;
   margin-bottom: 0.5vw;
   padding: 0;
