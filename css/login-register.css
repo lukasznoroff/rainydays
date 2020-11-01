@@ -9,16 +9,16 @@
 .columns {
   display: flex;
   width: 80%;
-
   margin: 40px auto;
 }
 
 .column-log-reg {
-  background-color: #183a49a9;
-  background-color: #08364bad;
+  background-color: var(--bgc-col-left);
+  /* background-color: #08364bad; */
   width: max(35%, 220px);
   /* height: 60vh; */
-  height: calc(58vh + 50px);
+height: 60vh;
+
 }
 
 /* .input {
@@ -31,11 +31,11 @@
   max-height: 5%;
 }
 
-.input-box {
+/* .input-box {
   max-height: calc(95% - 10px);
   height: calc(95% - 80px);
   height: max(60%, 300px);
-}
+} */
 
 .col-left-login .input-box {
   /* min-height: 65%; */
@@ -52,17 +52,17 @@
   /* place-items: flex-end; */
 }
 
-.col-left-login h1 {
+/* .col-left-login h1 {
   font-size: 2.5vw;
   color: #ddd;
   font-weight: 400;
-}
+} */
 
-.col-right-register h2 {
+/* .col-right-register h2 {
   font-size: 2.5vw;
   color: #ddd;
   font-weight: 400;
-}
+} */
 
 
 

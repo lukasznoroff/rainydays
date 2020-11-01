@@ -45,14 +45,16 @@ li a:hover {
   border-bottom: 2px solid #fff;
 }
 
-.icon img {
+
+.top-icon {
   width: 1.3vw;
-  color: #e2e3ef;
+  color: var(--text-color);
   margin-left: 15px;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
-.icon img:hover {
+.icon .top-icon:hover {
   transform: scale(1.3);
 }
 

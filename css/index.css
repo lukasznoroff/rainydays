@@ -1,6 +1,5 @@
 /*--- section-hero ---*/
 
-
 .wrapper {
   display: flex;
   align-items: center;
@@ -20,118 +19,90 @@
 }
 
 .col-left h1 {
-  color: #ddd;
-  font-size: 2.3vw;
   margin-bottom: 40px;
 }
 
 .col-left p {
-  color: #ddd; 
-  font-weight: 200;
-  line-height: 1.9;
-  font-size: .7vw;
-   flex: 1; 
+  flex: 1;
 }
 
- 
 .image {
   width: 40vw;
   height: 100%;
   object-fit: contain;
   margin-left: 10%;
-  transition: transform 450ms;
 }
-
-.image:hover {
-  transform: scale(1.02);
-}
-
-
 
 .social-media-box {
   display: flex;
   max-width: 80%;
   margin: auto;
+  font-size: 40px;
 }
 
 .social-media-icon {
-  width: 2.2vw;
-  border-radius: 50%;
-  transition: all .9s ease;
-  padding: 3px;
-  color: rgb(74, 70, 138);
+  padding: 6px;
+  transition: all 0.9s ease;
+  color: var(--media-color);
 }
 
 .footer-text {
-  color: #ddd;
+  color: var(--text-color);
   display: flex;
   align-self: center;
   margin-left: auto;
-  font-size: .6vw;
+  font-size: 0.6vw;
 }
 
 .social-media-icon:hover {
   transform: rotate(360deg);
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
+  #hamburger-menu {
+    display: none;
+  }
 
-/* #hamburger-menu {
-  display:none;
-} */
+  .hamburger {
+    position: absolute;
+    right: 22px;
+    color: #fff;
+  }
 
-
-
-.hamburger {
-  position: absolute;
-  right: 22px;
-  color: #fff;
+  #hamburger-menu:checked ~ nav {
+    display: block;
+  }
+  .hamburger-close {
+    position: absolute;
+    right: 17px;
+    color: #fff;
+    padding: 5px;
+    background-color: var(--bg-color);
+    display: none;
+  }
+  #hamburger-menu:checked ~ .hamburger-close {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
 }
 
-#hamburger-menu:checked ~ nav {
-  display: block;
-  
-
-}
-.hamburger-close {
-  position: absolute;
-  right: 17px;
-  color: #fff;
-  padding: 5px;
-  background-color: #414134;
-  display: none;
-
-}
-#hamburger-menu:checked ~ .hamburger-close {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-
-}
+@media only screen and (min-width: 800px) {
+  .hamburger,
+  .hamburger-close {
+    display: none;
+  }
+  #hamburger-menu {
+    display: none;
+  }
 }
 
- @media only screen and (min-width: 800px){
- .hamburger, .hamburger-close  {
-   display: none;
- }
- #hamburger-menu {
-   display: none;
- }
-
-
-
-} 
-
-
-
-
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
   nav {
     display: block;
     display: none;
     position: absolute;
-   
-    background-color: #333;
+    background-color: var(--bgc-mobile);
     width: 80%;
     height: 100vh;
     text-align: center;
@@ -139,87 +110,65 @@
     z-index: 1;
   }
 
-
-
-  
-  
   ul {
     display: block;
   }
 
-
-
   ul li {
-    display: block;
     padding: 20px;
   }
-  .logo  {
-    /* display: none; */
+
+  .logo {
     display: flex;
     justify-content: center;
     padding: 40px;
-   
   }
 
   .logo img {
-    width: 30vw;
-  }
-  .icon img{ 
-    width: 4vw;
+    width: 20vw;
   }
 
+  .top-icon {
+    margin: 0;
+    padding: 20px;
+  }
 
-
-/* --- index --- */
-
-
-
+  /* --- index --- */
 
   .wrapper {
-    /* margin-top: 40px; */
     height: 100vh;
+    margin-top: 40px;
   }
 
   .section-header {
     flex-direction: column-reverse;
-   
   }
+
   .image {
     width: 80vw;
     margin: auto;
   }
   .col-left {
-    height:  auto;
+    height: auto;
   }
   .col-left h1 {
-    font-size: 4.3vw;
+    font-size: 20px;
     margin: 30px 0;
   }
-  
+
   .col-left p {
-    font-size: 2.3vw;
+    font-size: 13px;
     margin-bottom: 25px;
     text-align: justify;
   }
   .btn {
     padding: 1.4vh 4vw;
     font-size: 3vw;
-    /* align-self: flex-start; */
   }
-
-
-  
-  .mobile-index .social-media-icon {
-    display: block;
-    width: 8vw;
-    margin-right: 10px;
-  }
-  
-  .footer-text {
-  display: flex;
-  font-size: 2vw;
-    /* display: none; */
-  }
-  
 }
 
+@media only screen and (max-width: 1200px) {
+  .col-left p {
+    font-size: 14px;
+  }
+}

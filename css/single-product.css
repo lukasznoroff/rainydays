@@ -58,14 +58,17 @@
 
 .product-col-right {
   padding: 2vw;
-  /* display: flex; */
-  /* flex-direction: column; */
-  color: #83a048;
+  color: var(--text-color2);
+}
+.product-col-right p, h6 {
+  color: var(--text-color2);
 }
 
 .product-col-right h1 {
   font-size: 1.2vw;
   margin-bottom: 2vh;
+  color: var(--text-color2);
+
 }
 
 .product-col-right p {

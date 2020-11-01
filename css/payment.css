@@ -13,23 +13,6 @@
   height: 30vh;
 }
 
-.headers {
-  /* background-color: #456444; */
-  /* width: 500px; */
-  /* justify-content: center; */
-  padding: 50px;
-  margin: auto;
-  /* height: 60vh; */
-}
-
-.headers h2 {
-  color: #fff;
-  /* font-size: 2vw; */
-  font-weight: 400;
-  margin-bottom: 40px;
-  line-height: 1.4;
-}
-
 .form-text {
   font-size: 0.7vw;
   max-height: 5%;
@@ -38,25 +21,11 @@
 .input-box {
   display: flex;
   flex-direction: column;
-  /* height: 500px; */
-  /* max-width: 300px; */
-  /* margin-bottom: 40px; */
-  color: #ddd;
+  color: var(--text-color);
 }
 
-/* .input {
-  background-color: #183a49a9;
-  background-color: #183a4900;
-  border: none;
-  border-bottom: 2px #707070 solid;
-  outline: none;
-  margin-bottom: 3vh;
-  padding: 5px;
-  color: #fff;
-} */
-
 .col-left-payment {
-  background-color: #08364bad;
+  background-color: var(--bgc-col-left);
   flex-basis: 35%;
   justify-content: space-between;
   padding: 40px;
@@ -64,14 +33,12 @@
 }
 
 .textarea {
-  /* background-color: rgba(221, 221, 221, 0.466); */
   border: none;
   border-bottom: 1px solid #fff;
   background-color: transparent;
-  /* margin-bottom: 10px; */
   width: 9vw;
   height: 4vw;
-  color: #fff;
+  color: var(-white-color);
 }
 
 .submit-btn {
@@ -81,29 +48,9 @@
 }
 
 .col-right-payment {
-  background-color: #313632;
+  background-color: var(--bgc-col-right);
   flex-basis: 35%;
   height: 60vh;
-}
-
-.col-right-payment h1 {
-  font-size: 2vw;
-  color: #ddd;
-  font-weight: 400;
-  margin-bottom: 40px;
-}
-
-.col-right-payment p {
-  font-size: 0.6vw;
-  color: #ddd;
-  font-weight: 400;
-  margin-bottom: 3vw;
-}
-
-.col-right-payment {
-  /* background-image: url("/images/woman.png"); */
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 800px) {

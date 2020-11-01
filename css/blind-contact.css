@@ -1,18 +1,19 @@
 
 
 .blind-contact {
-  /* width: 60vh; */
+  /* width: 80vw; */
  background-image: url("/images/woman.png");
  /* background-repeat: no-repeat;
  background-size: contain;
- width: 500px;
- height: 700px;
+
  margin: auto; */
  
 }
 
 .blind-contact {
   padding: 20px;
+  /* height: 80vh; */
+ 
 }
 
 

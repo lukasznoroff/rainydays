@@ -138,7 +138,7 @@
   .cards {
     height: auto;
     min-width: 0;
-    width: 100%;
+    width: 88%;
     flex-direction: column;
   }
 
