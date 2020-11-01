@@ -7,16 +7,14 @@
   width: 80vw;
   margin: auto;
 }
-
 .product-box-jacket {
   display: flex;
   width: 80%;
   max-width: 60%;
-  background-color: var(--bgc-single-col-right);
+  background-color: #fdfbd4;
   margin-top: 40px;
   height: 100%;
 }
-
 .product-col-right,
 .product-col-left {
   flex-basis: 50%;
@@ -25,16 +23,20 @@
   height: 60vh;
 }
 
-.product-col-left.men {
-  background-color: var(--bgc-single-col-left);
+.product-col-left {
+  background-color: rgb(168, 100, 100);
 }
-
+.product-col-left.men {
+  background-color: rgba(36, 47, 97, 0.89);
+  background-color: rgba(36, 62, 97, 0.938);
+}
 .women-jacket-cart {
   width: 100%;
 }
 
 .product-col-right {
   padding: 2vw;
+  color: #83a048;
   color: var(--text-color2);
 }
 .product-col-right p,
@@ -53,17 +55,14 @@ h6 {
   max-width: 600px;
   margin-bottom: 4vh;
 }
-
 .product-col-right h6 {
   font-size: 0.8vw;
   margin-bottom: 20px;
 }
-
 .price-paragraph {
   font-weight: 600;
   margin-bottom: 20px;
 }
-
 .size-select label {
   display: inline-block;
   margin-right: 12px;
@@ -75,23 +74,18 @@ h6 {
   transition: all 0.2s;
   margin-bottom: 40px;
 }
-
 .size-select input {
   display: none;
 }
 
-
-
 .size-select label:hover {
   background-color: rgb(218, 204, 204);
 }
-
 .size-select input:checked + label {
   font-weight: 700;
-  color: var(--white-color);
+  color: #fff;
   background-color: rgb(158, 149, 149);
 }
-
 .color-select label {
   display: inline-block;
   margin-right: 12px;
@@ -100,11 +94,9 @@ h6 {
   transition: all 0.2s;
   margin-bottom: 20px;
 }
-
 .color-select input {
   display: none;
 }
-
 .color-select.color {
   display: block;
   width: 35px;
@@ -113,20 +105,16 @@ h6 {
 .color-red {
   background-color: red;
 }
-
 .color-green {
   background-color: green;
 }
-
 .color-yellow {
   background-color: rgb(221, 221, 2);
 }
-
 .color-select label:hover {
   border: 1px solid #000;
   cursor: pointer;
 }
-
 .color-select input:checked + label {
   border: 2px solid #000;
 }
@@ -134,12 +122,10 @@ h6 {
   display: inline-block;
   padding: 1vh 1vw;
 }
-
 @media only screen and (max-width: 800px) {
   .product-box {
     height: auto;
   }
-
   .product-box-jacket {
     flex-direction: column;
     max-width: none;
@@ -153,24 +139,21 @@ h6 {
   .product-col-right {
     background-size: contain;
     height: auto;
-    /* height: 50%; */
+   
   }
   .product-col-right h5 {
     font-size: 4vw;
     margin-bottom: 1vh;
   }
-
   .product-col-right p {
     font-size: 2vw;
     max-width: 600px;
     margin-bottom: 1vh;
   }
-
   .product-col-right h6 {
     font-size: 2vw;
     margin-bottom: 20px;
   }
-
   .price-paragraph {
     font-weight: 600;
     margin-bottom: 20px;
