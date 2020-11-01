@@ -95,11 +95,21 @@
 
 @media only screen and (max-width: 800px) {
   .contact-section {
+    width: 100%;
+    height: auto;
     display: block;
   }
 
+  .col-right-contact  {
+    height: auto;
+    flex-basis: auto;
+  }
+  
   .col-left-contact.headers {
     margin-bottom: 40px;
+    height: auto;
+    flex-basis: auto;
+
   }
 
   .input-box .form-text {
@@ -114,5 +124,12 @@
   }
   .headers p {
     font-size: 2.3vw;
+  }
+  .input-box {
+    height: auto;
+    max-height: none;
+  }
+  .col-left-login {
+    height: auto !important;
   }
 }

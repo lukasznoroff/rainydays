@@ -1,7 +1,7 @@
 /*--- section-hero ---*/
 
 
-.wraper {
+.wrapper {
   display: flex;
   align-items: center;
   height: 70vh;
@@ -76,9 +76,11 @@
 
 @media only screen and (max-width: 800px){
 
-#hamburger-menu {
+/* #hamburger-menu {
   display:none;
-}
+} */
+
+
 
 .hamburger {
   position: absolute;
@@ -108,18 +110,17 @@
 }
 }
 
-/* @media only screen and (min-width: 800px){
- .hamburger {
+ @media only screen and (min-width: 800px){
+ .hamburger, .hamburger-close  {
    display: none;
  }
  #hamburger-menu {
    display: none;
  }
 
-.logo-mobile img {
-  display: none;
-}
-} */
+
+
+} 
 
 
 
@@ -129,6 +130,7 @@
     display: block;
     display: none;
     position: absolute;
+   
     background-color: #333;
     width: 80%;
     height: 100vh;
@@ -137,9 +139,15 @@
     z-index: 1;
   }
 
+
+
+  
+  
   ul {
     display: block;
   }
+
+
 
   ul li {
     display: block;
@@ -167,7 +175,7 @@
 
 
 
-  .wraper {
+  .wrapper {
     /* margin-top: 40px; */
     height: 100vh;
   }

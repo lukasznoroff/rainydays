@@ -1,16 +1,16 @@
 
 
-.blind-register {
-  width: 60vh;
+.blind-register  {
+  /* width: 60vh; */
 
  background-image: url("/images/register-image-min.png");
- background-repeat: no-repeat;
+ /* background-repeat: no-repeat; */
  /* background-size: contain; */
- background-size: cover;
- width: 500px;
- /* height: 700px; */
- height: 60vh;
- margin: auto;
+ /* background-size: cover; */
+ /* width: 500px;
+ height: 700px; */
+ /* height: 60vh; */
+ /* margin: auto; */
  
 }
 
